@@ -45,7 +45,7 @@ def initialize():
         except:
             print("")
             print(f'{error} Ocurrió un error, intentelo de nuevo')
-            time.sleep(3)
+            time.sleep(2)
             initialize()
     print(f'{wait} Scan completado, presione enter.')
     x = input()
